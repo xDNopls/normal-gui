@@ -24,7 +24,9 @@ p:Cheat("Label", 'MadLads is Madcity')
 
 b:Cheat("Label", 'GAME LISTS')
 
-b:Cheat("Label", 'https://pastebin.com/raw/c6JW2GFK')
+b:Cheat("Button", 'https://raw.githubusercontent.com/xDNopls/normal-gui/master/game%20list?token=AQFDBFFASIQIULRUKA6JP7S673LME  Copy-->',function()
+    setclipboard('https://raw.githubusercontent.com/xDNopls/normal-gui/master/game%20list?token=AQFDBFFASIQIULRUKA6JP7S673LME')
+end)
 
 b:Cheat('Button', 'Dark Hub', function()
 loadstring(game:HttpGet(("https://pastebin.com/raw/yCrBkPaY"), true))()
