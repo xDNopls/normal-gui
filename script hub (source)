@@ -1,0 +1,203 @@
+local Finity = loadstring(game:HttpGet("http://finity.vip/scripts/finity_lib.lua"))()
+local FinityWindow = Finity.new(true) -- 'true' means dark mode is enabled
+FinityWindow.ChangeToggleKey(Enum.KeyCode.RightShift)
+
+local w = FinityWindow:Category("Scripts")
+
+local b = w:Sector("Scripts")
+
+local p = w:Sector('System-Exodus')
+
+local d = FinityWindow:Category('Settings')
+
+local l = d:Sector("Settings")
+
+local u = FinityWindow:Category('Universal&Admin')
+
+local h = u:Sector('Universal')
+
+local a = u:Sector('Admin')
+
+h:Cheat("Label", "yes hot")
+
+p:Cheat("Label", 'MadLads is Madcity')
+
+b:Cheat("Label", 'GAME LISTS')
+
+b:Cheat("Label", 'https://pastebin.com/raw/c6JW2GFK')
+
+b:Cheat('Button', 'Dark Hub', function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/yCrBkPaY"), true))()
+    print("Dark Hub Loaded!")
+end)
+
+b:Cheat('Button', 'Tesla Jailbreak', function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/linsonder6/Tesla/master/TeslaMain.lua"))();
+    print("yes tesla op")
+end)
+
+b:Cheat('Button', 'Boo Hub', function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PurpleHubs/GhostyHub/master/hubv1.txt"))();
+    print("boo hub strucid good")
+end)
+
+b:Cheat('Button', 'Potato Hub', function()
+ loadstring(game:HttpGet(('https://www.potato-hub.com/PotatoHub.lua'),true))()
+    print("potato hub many community script")
+end)
+
+b:Cheat('Button', 'Wizard Hub', function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ColdRBX/WizardHub/master/WizardHub_v4.lua", true))()
+    print("Wizard Hub good!")
+end)
+
+b:Cheat('Button', 'Zyrex Hub', function()
+_G.Toggle_GUI = Enum.KeyCode.RightControl
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/NotZyrex/Zyrex-Hub/master/Main.lua'),true))()
+    print('Zyrex Hub Loaded!')
+end)
+
+b:Cheat('Button', 'Auratus X', function()
+loadstring(game:HttpGet('https://pastebin.com/raw/4udWuBsj'))()
+    print('Auratus X Loaded!')
+end)
+
+b:Cheat('Button', 'Owl Hub', function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+    print('owl hub discontinued lol')
+end)
+
+b:Cheat('Button', 'Cloud Hub', function()
+loadstring(game:HttpGet("https://cloudhub.dev/scripts/cloud-hub.lua"))();
+    print('cloud hub loaded!')
+end)
+
+b:Cheat('Button', 'Vortex Hub', function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Eprx/scripts/master/vortexhub"))()
+    print('Vortex Hub Loaded!')
+end)
+
+p:Cheat('Button', 'ArsenalHaxx', function()
+loadstring(game:HttpGet("https://system-exodus.com/scripts/arsenal/arsenalhaxx.lua",true))()
+    print("inf ammo yes")
+end)
+
+p:Cheat('Button', 'NinjaLegends v3', function()
+loadstring(game:HttpGet('https://system-exodus.com/scripts/ninjalegends/NinjaLegendsV3.lua',true))()
+    print('why  still use')
+end)
+
+p:Cheat('Button', 'MadLads', function()
+loadstring(game:HttpGet("https://system-exodus.com/scripts/madlads/MadLads.lua",true))()
+    print('MadLads Loaded')
+end)
+
+p:Cheat('Button', 'MadLadsAR', function()
+loadstring(game:HttpGet("https://system-exodus.com/scripts/madlads/MadLadsAR.lua",true))()
+    print('go auto rob madcity now')
+end)
+
+p:Cheat('Button', 'Blade Throwing', function()
+loadstring(game:HttpGet(("https://system-exodus.com/scripts/bladethrowing/BladeThrowing.lua"),true))()
+    print('blade throwing simulator loaded')
+end)
+
+p:Cheat('Button', 'BullsEye Sim', function()
+loadstring(game:HttpGet(("https://system-exodus.com/scripts/bullseye/BullseyeSimulator.lua"),true))()
+    print('bullseye work or no idk')
+end)
+
+p:Cheat('Button', 'Skyblock', function()
+loadstring(game:HttpGet("https://system-exodus.com/scripts/Skyblock/Skyblock.lua",true))()
+    print('skyblock op! by jxnt')
+end)
+
+h:Cheat("Slider", 'Walkspeed',function(Value)
+    game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = Value
+end, {min = 0, max = 500, suffix = "mph"})
+
+h:Cheat("Button", 'Reset Walkspeed',function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+h:Cheat("Slider", 'Jumppower',function(Value)
+    game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = Value
+end, {min = 0, max = 500, suffix = "studs"})
+
+h:Cheat("Button", 'Reset Jumppower',function()
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+end)
+
+a:Cheat('Button', 'Infinite Yield', function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    print('Infinite Yield Loaded!')
+end)
+
+a:Cheat('Button', 'CMD-X', function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source',true))()
+    print('CMD-X Loaded!')
+end)
+
+a:Cheat('Button', 'Reviz Admin', function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/pyzjWNhk'),true))()
+    print('Reviz Admin')
+end)
+
+a:Cheat('Button', 'Shattervast Admin', function()
+loadstring(game:HttpGet('https://pastebin.com/raw/iL4NRDux'))()
+    print('Shattervast Admin')
+end)
+
+h:Cheat('Button', 'Project Bull-Dukey',function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/VYgXBi4W"))()
+end)
+
+h:Cheat('Button', 'Aimbot(Wearedevs)',function()
+loadstring(game:HttpGet('https://cdn.wearedevs.net/scripts/WRD%20Aimbot.txt'))()
+    print('by wearedevs lol')
+end)
+
+h:Cheat("Checkbox", "Team Check(WRD)", function(bool)
+    _G.WRDAimbotTeamCheck = bool
+    print(bool)
+    print'team'
+end)
+
+h:Cheat("Checkbox", "Wall Check(WRD)", function(bool)
+    _G.WRDAimBotWallcheck = bool
+    print(bool)
+    print'wall'
+end)
+
+h:Cheat('Button', 'Dex Explorer', function()
+loadstring(game:GetObjects('rbxassetid://2180084478')[1].Source)()
+    print('yes but if u die its gone')
+end)
+
+h:Cheat('Button', 'Dex Explorer better', function()
+loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer%20V2.txt"))()
+    print('better ahh')
+end)
+
+h:Cheat('Button', 'Synapse GUI Remake', function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ipNT4gwP'))()
+    print('yee')
+end)
+b:Cheat("Button", "Psyhub", function()
+loadstring(game:GetObjects("rbxassetid://3042778022")[1].Source)()
+    print('one of the best executor gui out there')
+end)
+
+local c = d:Sector('Credits')
+
+c:Cheat("Label", "UI Library : Finity UI")
+
+c:Cheat("Label", "Scripts : HIXD#5628")
+
+l:Cheat("Colorpicker", "ColorPicker", function(color)
+    print(color)
+end)
+
+l:Cheat('Button', "Destroy GUI", function()
+    game.CoreGui.FinityUI:Destroy()
+end)
