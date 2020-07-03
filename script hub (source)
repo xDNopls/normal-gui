@@ -82,6 +82,36 @@ loadstring(game:HttpGet("http://skiascripts.xyz/baconhub.lua"))()
     print('Bacon Hub Loaded!')
 end)
 
+b:Cheat('Button', 'Ovline Hub', function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Venjaxn/Ovline/master/Bootstrapper"))();
+    print('Ovline Hub Loaded!')
+end)
+
+b:Cheat('Button', 'Coco Hub', function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/MarsQQ/CocoHub/master/CocoZHub'),true))()
+    print('Coco Hub Loaded!')
+end)
+
+b:Cheat('Button', 'Galaxy Hub', function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/LaziestBoy/Krnl-Hub/master/Krnl-Hub.lua', true))()
+    print('Galaxy Hub Loaded!')
+end)
+
+b:Cheat('Button', '101 Hub', function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ctpWehKN'))()
+    print('101 Hub Loaded!')
+end)
+
+b:Cheat('Button', 'Zeron Hub', function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Jc9xbA9F",true))()
+    print('Zeron Hub Loaded!')
+end)
+
+b:Cheat('Button', 'Doggo Hub', function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DoggoHub/Main/master/Hub.lua", true))()
+    print('Doggo Hub Loaded!')
+end)
+
 p:Cheat('Button', 'ArsenalHaxx', function()
 loadstring(game:HttpGet("https://system-exodus.com/scripts/arsenal/arsenalhaxx.lua",true))()
     print("inf ammo yes")
@@ -188,6 +218,12 @@ h:Cheat('Button', 'Synapse GUI Remake', function()
 loadstring(game:HttpGet('https://pastebin.com/raw/ipNT4gwP'))()
     print('yee')
 end)
+
+h:Cheat('Button', 'Jiren Executor Gui', function()
+loadstring(game:HttpGet("https://pastebin.com/raw/jsBDpaHa", true))()
+    print('executor')
+end)
+
 b:Cheat("Button", "Psyhub", function()
 loadstring(game:GetObjects("rbxassetid://3042778022")[1].Source)()
     print('one of the best executor gui out there')
