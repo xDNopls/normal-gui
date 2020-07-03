@@ -77,6 +77,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Eprx/scripts/master/v
     print('Vortex Hub Loaded!')
 end)
 
+b:Cheat('Button', 'Bacon Hub', function()
+loadstring(game:HttpGet("http://skiascripts.xyz/baconhub.lua"))()
+    print('Bacon Hub Loaded!')
+end)
+
 p:Cheat('Button', 'ArsenalHaxx', function()
 loadstring(game:HttpGet("https://system-exodus.com/scripts/arsenal/arsenalhaxx.lua",true))()
     print("inf ammo yes")
